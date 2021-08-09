@@ -57,8 +57,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/libs/AstarPathfindingProject/PackageTools/Editor/EditorBase.cs" />
-    <Compile Include="Assets/libs/AstarPathfindingProject/PackageTools/Editor/EditorGUIx.cs" />
     <Compile Include="Assets/libs/AstarPathfindingProject/PackageTools/Editor/EnumFlagDrawer.cs" />
+    <Compile Include="Assets/libs/AstarPathfindingProject/PackageTools/Editor/EditorGUIx.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets/libs/AstarPathfindingProject/PackageTools/Editor/PackageToolsEditor.asmdef" />

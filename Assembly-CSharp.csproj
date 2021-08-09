@@ -56,11 +56,14 @@
     <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/Scripts/PlayerMoveController.cs" />
-    <Compile Include="Assets/Scripts/IsometriCharacteRender.cs" />
     <Compile Include="Assets/Scripts/CameraFollow.cs" />
+    <Compile Include="Assets/Scripts/IsometriCharacteRender.cs" />
+    <Compile Include="Assets/Scripts/PlayerMoveController.cs" />
+    <Compile Include="Assets/GoldenSkullStudios/2D/2D_Iso_Tile_Pack_Starter/Extras/Scripts/Simple_Char_Move.cs" />
+    <Compile Include="Assets/GoldenSkullStudios/2D/2D_Iso_Tile_Pack_Starter/Extras/Scripts/Simple_Door_Interaction.cs" />
   </ItemGroup>
   <ItemGroup>
+     <None Include="Assets/GoldenSkullStudios/2D/2D_Iso_Tile_Pack_Starter/README.txt" />
     <Reference Include="UnityEngine">
       <HintPath>/Applications/Unity/Hub/Editor/2020.3.3f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -720,13 +723,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="AstarPathfindingProject.csproj">
-      <Project>{3AF80652-31EC-A602-1525-F1DD7733E038}</Project>
-      <Name>AstarPathfindingProject</Name>
-    </ProjectReference>
     <ProjectReference Include="PackageToolsEditor.csproj">
       <Project>{380C1CAE-7BD8-9584-10E8-59295F9C39B2}</Project>
       <Name>PackageToolsEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="AstarPathfindingProject.csproj">
+      <Project>{3AF80652-31EC-A602-1525-F1DD7733E038}</Project>
+      <Name>AstarPathfindingProject</Name>
     </ProjectReference>
     <ProjectReference Include="AstarPathfindingProjectEditor.csproj">
       <Project>{0F67B90E-1444-CF3A-5646-989543CE3F81}</Project>
