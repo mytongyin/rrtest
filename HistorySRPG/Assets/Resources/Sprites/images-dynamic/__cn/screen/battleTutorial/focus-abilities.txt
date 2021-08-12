@@ -1,0 +1,3 @@
+﻿Health bar  生命条
+Focus bar   专注条
+Focus abilities 专注能力

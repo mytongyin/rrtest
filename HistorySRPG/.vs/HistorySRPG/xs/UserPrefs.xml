@@ -1,0 +1,39 @@
+﻿<Properties StartupConfiguration="{28E08BA3-8C24-1F16-A560-AFDF73A7DF8E}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Control/Battle/BattleTileController.cs">
+    <Files>
+      <File FileName="Assets/Scripts/GameGrid.cs" Line="14" Column="2" />
+      <File FileName="Assets/Scripts/SceneManager/BattleSceneManager.cs" Line="20" Column="1" />
+      <File FileName="Assets/Scripts/Util/DataManager/PrefabDataManager.cs" Line="17" Column="1" />
+      <File FileName="Assets/Scripts/Util/NonRectangularButtonImage.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/SceneManager/BasicHexArranger.cs" Line="82" Column="42" />
+      <File FileName="Assets/Scripts/Control/Battle/CameraScreenEdgeMove.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Control/Battle/BattleTileController.cs" Line="15" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="HistorySRPG" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="Control" expanded="True">
+                  <Node name="Battle" expanded="True">
+                    <Node name="BattleTileController.cs" selected="True" />
+                  </Node>
+                </Node>
+                <Node name="SceneManager" expanded="True" />
+                <Node name="Util" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="7cade264-75ac-4f20-b177-e492dd2595e9" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

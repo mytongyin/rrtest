@@ -1,0 +1,24 @@
+﻿URTUK Lvl 12
+烏爾圖克 Lvl 12
+
+Guardian
+守衛者
+
+HP 929/929
+Damage 95
+Timeline 100
+Stamina 82/82
+Helmet 221/221
+Shield 441/441
+生命 929/929
+傷害 95
+時間軸 100
+體力 82/82
+頭盔 221/221
+盾牌 441/441
+
+Stalwart
+堅定
+
+Click to show details
+點擊顯示詳情

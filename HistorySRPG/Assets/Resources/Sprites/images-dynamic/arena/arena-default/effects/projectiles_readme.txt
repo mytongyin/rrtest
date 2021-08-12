@@ -1,0 +1,1 @@
+to render projectiles (javelin, pipetube, bolt) make sure the png is called "projectile_<classdefinition.spine.skeletonName>".png
