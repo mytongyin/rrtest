@@ -95,9 +95,14 @@ public class BasicHexArranger : MonoBehaviour
 
                 Transform Button = TileObject.transform.Find("Canvas").transform.Find("Button");
                 Button.GetComponent<Image>().sprite = tile_cell[Random.Range(0, tile_cell.Length)];
+
+                BattleTileController battleTileController = TileObject.AddComponent<BattleTileController>();
+                battleTileController.Init(i, j, 0, Row);
+
                 Button.GetComponent<Button>().onClick.AddListener(delegate ()
                 {
                     Debug.Log("!!!!!");
+                    battleTileController.ChangeHeight(1);
                 });
 
                 //GameObject g = new GameObject("X:" + i + "Y:" + j);
@@ -111,15 +116,9 @@ public class BasicHexArranger : MonoBehaviour
                 //    Debug.Log("!!!!!");
                 //});
 
-
-
-
             }
             Y = Y + tile_height_3;
-
         }
-
-
 
         // start in upper-left corner, ish.
         //float anchor_x = Camera.main.pixelWidth * 0.01f * -0.5f - tile_width * 0.5f;
