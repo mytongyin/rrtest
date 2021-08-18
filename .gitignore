@@ -1,20 +1,20 @@
 # =============== #
 # Unity generated #
 # =============== #
-Temp/
-Library/
+HistorySRPG/Temp/
+HistorySRPG/Library/
 
 # ===================================== #
 # Visual Studio / MonoDevelop generated #
 # ===================================== #
-ExportedObj/
-obj/
+HistorySRPG/ExportedObj/
+HistorySRPG/obj/
 *.svd
 *.userprefs
-/*.csproj
+HistorySRPG/*.csproj
 *.pidb
 *.suo
-/*.sln
+HistorySRPG/*.sln
 *.user
 *.unityproj
 *.booproj
